@@ -1,5 +1,18 @@
 
 --------------------------------------------------------------------------
+Version v1.9.5 - 07 July 2016
+--------------------------------------------------------------------------
+
+NEW: Accounting Layout (One-Pages/Accounting/index.html)
+NEW: Real Estate Layout (One-Pages/RealEstate/index.html)
+NEW: Charity Layout (One-Pages/Charity/index.html)
+NEW: Restaurant Layout (One-Pages/Restaurant/index.html)
+NEW: Gym Layout (One-Pages/Gym/index.html)
+UPDATE: Layer Slider v5.6.7
+UPDATE: Cube Portfolio v3.7.1
+UPDATE: Font Awesome 4.6.3
+
+--------------------------------------------------------------------------
 Version v1.9.4 - 19 April 2016
 --------------------------------------------------------------------------
 
