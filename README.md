@@ -11,3 +11,14 @@ Update: tag: v1.9.4 5/6/16 JJW
 
 Update: tag: v1.9.5 7/9/16 JJW
 
+
+To Update
+---------
+
+- Delete all files except this one (REAADME) and .git
+- unzip new updated release here, following the same directory levels
+
+Git will take care of figuring out what's thge same / moved / changed.
+
+j
+
