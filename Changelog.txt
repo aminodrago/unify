@@ -1,3 +1,19 @@
+--------------------------------------------------------------------------
+Version v1.9.6 - 30 August 2016
+--------------------------------------------------------------------------
+
+NEW: Music Layout (One-Pages/Music/index.html)
+NEW: 70+ Revolution Slider Demos (HTML/One-Pages/assets/plugins/revolution-slider/..)
+NEW: 30+ Master Slider Demos (HTML/assets/plugins/master-slider/slider-templates/..)
+ADDED: Contact Form to Gym Demo
+ADDED: Youtube Video Background and Theme Color to Architecture (One-Pages/Architecture/page-youtube-video.html)
+ADDED: Theme Color to Accounting (One-Pages/Accounting/page-theme-color.html)
+FIXED: typo error "subsribe" to "subscribe"
+FIXED: Clients hover effect on touch devices in jobs page
+IMPROVEMENT: Sub level menu in the default header
+UPDATE: Bootstrap v3.3.7
+UPDATE: Revolution Slider v5.2.6
+UPDATE: Master Slider v2.50.0
 
 --------------------------------------------------------------------------
 Version v1.9.5 - 07 July 2016

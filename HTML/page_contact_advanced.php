@@ -792,30 +792,61 @@ $_SESSION['captcha_id'] = $str;
 						<!-- End Shortcodes -->
 
 						<!-- Demo Pages -->
-						<li class="dropdown">
+						<li class="dropdown mega-menu-fullwidth">
 							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
 								Demos
 							</a>
-							<ul class="dropdown-menu pull-right">
-								<li><a href="One-Pages/Architecture/index.html">Architecture</a></li>
-								<li><a href="One-Pages/Travel/index.html">Travel</a></li>
-								<li><a href="One-Pages/App/index.html">Mobile App</a></li>
-								<li><a href="One-Pages/Shipping/index.html">Shipping</a></li>
-								<li><a href="One-Pages/Agency/index.html">Agency</a></li>
-								<li><a href="One-Pages/Spa/index.html">Spa</a></li>
-								<li><a href="One-Pages/Lawyer/index.html">Lawyer</a></li>
-								<li><a href="One-Pages/Business/index.html">Business</a></li>
-                <li><a href="One-Pages/Wedding/index.html">Wedding</a></li>
-                <li><a href="One-Pages/Courses/index.html">Courses</a></li>
-                <li><a href="One-Pages/Construction/index.html">Construction</a></li>
-								<li><a href="Landing-Pages/Wealth/index.html">Wealth</a></li>
-								<li><a href="Landing-Pages/Consulting/index.html">Consulting</a></li>
-								<li><a href="One-Pages/Hero-Fashion/index.html">Hero Fashion</a></li>
-								<li><a href="One-Pages/Hero-Gym/index.html">Hero Gym</a></li>
-								<li><a href="One-Pages/Hero-Photography/index.html">Hero Photography</a></li>
-								<li><a href="One-Pages/Hero-Restaurant/index.html">Hero Restaurant</a></li>
-								<li><a href="One-Pages/Hero-WebApp/index-dark.html">Hero Web App Dark</a></li>
-								<li><a href="One-Pages/Hero-WebApp/index.html">Hero Web App Light</a></li>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="mega-menu-content disable-icons">
+										<div class="container">
+											<div class="row equal-height">
+												<div class="col-md-3 equal-height-in">
+													<ul class="list-unstyled equal-height-list">
+														<li><a href="One-Pages/Accounting/index.html">Accounting</a></li>
+														<li><a href="One-Pages/Agency/index.html">Agency</a></li>
+														<li><a href="One-Pages/Architecture/index.html">Architecture</a></li>
+														<li><a href="One-Pages/Business/index.html">Business</a></li>
+														<li><a href="One-Pages/Charity/index.html">Charity</a></li>
+														<li><a href="Landing-Pages/Consulting/index.html">Consulting</a></li>
+						                <li><a href="One-Pages/Courses/index.html">Courses</a></li>
+													</ul>
+												</div>
+
+												<div class="col-md-3 equal-height-in">
+													<ul class="list-unstyled equal-height-list">
+						                <li><a href="One-Pages/Construction/index.html">Construction</a></li>
+														<li><a href="One-Pages/Gym/index.html">Gym</a></li>
+														<li><a href="One-Pages/Lawyer/index.html">Lawyer</a></li>
+														<li><a href="One-Pages/App/index.html">Mobile App</a></li>
+														<li><a href="One-Pages/Music/index.html">Music <small class="color-red">New</small></a></li>
+														<li><a href="One-Pages/RealEstate/index.html">Real Estate</a></li>
+														<li><a href="One-Pages/Restaurant/index.html">Restaurant</a></li>
+													</ul>
+												</div>
+												<div class="col-md-3 equal-height-in">
+													<ul class="list-unstyled equal-height-list">
+														<li><a href="One-Pages/Shipping/index.html">Shipping</a></li>
+														<li><a href="One-Pages/Spa/index.html">Spa</a></li>
+														<li><a href="One-Pages/Travel/index.html">Travel</a></li>
+														<li><a href="Landing-Pages/Wealth/index.html">Wealth</a></li>
+						                <li><a href="One-Pages/Wedding/index.html">Wedding</a></li>
+													</ul>
+												</div>
+												<div class="col-md-3 equal-height-in">
+													<ul class="list-unstyled equal-height-list">
+														<li><a href="One-Pages/Hero-Fashion/index.html">Hero Fashion</a></li>
+														<li><a href="One-Pages/Hero-Gym/index.html">Hero Gym</a></li>
+														<li><a href="One-Pages/Hero-Photography/index.html">Hero Photography</a></li>
+														<li><a href="One-Pages/Hero-Restaurant/index.html">Hero Restaurant</a></li>
+														<li><a href="One-Pages/Hero-WebApp/index-dark.html">Hero Web App Dark</a></li>
+														<li><a href="One-Pages/Hero-WebApp/index.html">Hero Web App Light</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
 							</ul>
 						</li>
 						<!-- End Demo Pages -->

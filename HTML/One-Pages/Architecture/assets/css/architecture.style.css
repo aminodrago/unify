@@ -534,6 +534,9 @@ p {
 }
 
 /*Slider controls*/
+.promo-section {
+	overflow: hidden;
+}
 .promo-section .g-heading-v7 {
 	z-index: 1;
 }
@@ -551,23 +554,32 @@ p {
 	width: 168px;
 	margin-left: -88px;
 }
+.valign__middle {
+	padding: 250px 0;
+}
 
 @media (max-width: 768px) {
 	.promo-section h2 {
-	    font-size: 60px;
+	  font-size: 60px;
+	}
+	.valign__middle {
+		padding: 150px 0;
 	}
 }
 
 @media (max-width: 668px) {
 	.promo-section h2 {
-	    font-size: 50px;
+	  font-size: 50px;
 	}
 }
 
 @media (max-width: 468px) {
 	.promo-section h2 {
-	    font-size: 35px;
-	    padding-bottom: 10px;
+    font-size: 35px;
+    padding-bottom: 10px;
+	}
+	.valign__middle {
+		padding: 50px 0;
 	}
 }
 
@@ -818,6 +830,9 @@ p {
 	display: block;
 	margin: 5px 0 10px;
 }
+.cbp-popup-lightbox-counter {
+	display: none;
+}
 
 .popup-title h3, .cbp-popup-lightbox-title h3 {
 	font: 500 14px "Roboto", Arial, sans-serif;
@@ -825,16 +840,16 @@ p {
 	letter-spacing: 2px;
 }
 
-/*Cube-portfolio lightbox design*/
+/* Cube-portfolio lightbox design */
 .cbp-item {
 	position: relative;
 	height: auto;
-    transition: all 0.4s ease-in-out;
 }
 
-.cbp-item:hover .popup-title, .cbp-popup-lightbox-title {
+.cbp-item:hover .popup-title,
+.cbp-popup-lightbox-title {
 	background: #2d2d37;
-    transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .cbp-item:hover .popup-title h3 em, .cbp-popup-lightbox-title h3 em {
@@ -1603,4 +1618,23 @@ p {
 
 .sky-form.submited .message p {
     color: #383339;
+}
+
+/* Youtube Video */
+.video-business-img1 {
+  background: url(../video-temp/youtube-business/video-business-img1.jpg) no-repeat center;
+  background-size: cover; /*Scales the background image to be as large as possible*/
+  height: 100vh;
+}
+
+/* Global Styles */
+.g-block-middle {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.g-height-100x {
+	height: 100vh;
 }

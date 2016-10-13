@@ -140,6 +140,10 @@ a:active {
 	background: #2e3239;
 }
 
+.g-bg-color-transparent {
+	background-color: transparent !important;
+}
+
 /* Text Colors */
 .g-color-base {
 	color: #6b7de0;
@@ -477,6 +481,27 @@ a:active {
 }
 
 /* --------------------------------------------------
+	[. Info Box v3]
+---------------------------------------------------- */
+/* Icon */
+.u-info-box-v3__icon {
+	font-size: 45px;
+}
+
+/* Title */
+.u-info-box-v3__title {
+	font-size: 11px;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+/* Text */
+.u-info-box-v3__text {
+	font-size: 14px;
+	letter-spacing: .5px;
+}
+
+/* --------------------------------------------------
 	[. Social Icons v1]
 ---------------------------------------------------- */
 .u-social-icons-v1 {
@@ -526,6 +551,59 @@ a:active {
 .u-subscribe-block-v1 {
 	padding: 20px;
 	font-size: 14px;
+}
+
+/* Transparent */
+.u-subscribe-block-v1--transparent {
+	background-color: transparent;
+	border-color: rgba(255,255,255,.6);
+	color: #fff;
+  font-weight: normal;
+}
+
+.u-subscribe-block-v1--transparent:focus {
+	box-shadow: none;
+	border-color: rgba(255,255,255,1);
+}
+
+.u-subscribe-block-v1--transparent::-moz-placeholder {
+  color: rgba(255,255,255,.7);
+  font-weight: 300;
+}
+.u-subscribe-block-v1--transparent:-ms-input-placeholder {
+  color: rgba(255,255,255,.7);
+  font-weight: 300;
+}
+.u-subscribe-block-v1--transparent::-webkit-input-placeholder {
+  color: rgba(255,255,255,.7);
+  font-weight: 300;
+}
+
+/* Textarea */
+.form-control--textarea {
+	padding: 11px 20px 10px;
+	overflow-y: hidden;
+}
+
+/* Status */
+.u-contact-wrapper .state-error input,
+.u-contact-wrapper .state-success input,
+.u-contact-wrapper .state-error select,
+.u-contact-wrapper .state-success select,
+.u-contact-wrapper .state-error textarea,
+.u-contact-wrapper .state-success textarea {
+	background-color: transparent;
+}
+
+.u-contact-wrapper .state-error + em {
+	position: relative;
+	top: -10px;
+}
+
+/* Message Status Icon */
+.sky-form__message-icon {
+	border-color: #fff !important;
+	color: #fff;
 }
 
 /* --------------------------------------------------
@@ -599,7 +677,7 @@ a:active {
 }
 
 /* --------------------------------------------------
-	[. Pace Loader]
+	[. Video Icon v1]
 ---------------------------------------------------- */
 .u-video-icon-v1 {
 	position: absolute;
@@ -621,6 +699,10 @@ a:active {
 	color: #fff;
 	border-color: rgba(255,255,255,.6);
 	background-color: rgba(0,0,0,.6);
+}
+
+.u-video-icon-v1:focus {
+	color: #fff;
 }
 
 .u-video-icon-v1__icon {
