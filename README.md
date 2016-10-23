@@ -1,4 +1,5 @@
 # unify
+
 Unify bootstrap theme
 
 Inital checkin: v1.9
@@ -17,7 +18,7 @@ Update: tag: v1.9.6 10/11/16 JJW
 To Update
 ---------
 
-- Delete all files except this one (REAADME) and .git
+- Delete all files except this one (README) and .git
 - unzip new updated release here, following the same directory levels
 
 Git will take care of figuring out what's thge same / moved / changed.
