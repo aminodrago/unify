@@ -12,19 +12,28 @@
         gridAdjustment: 'responsive',
         mediaQueries: [{
             width: 1500,
-            cols: 4
+            cols: 4,
         }, {
             width: 1100,
-            cols: 3
+            cols: 3,
         }, {
             width: 800,
-            cols: 3
+            cols: 3,
         }, {
             width: 480,
-            cols: 2
+            cols: 2,
+            options: {
+                caption: '',
+                gapHorizontal: 50,
+                gapVertical: 20,
+            }
         }, {
             width: 320,
-            cols: 1
+            cols: 1,
+            options: {
+                caption: '',
+                gapHorizontal: 50,
+            }
         }],
         caption: 'revealBottom',
         displayType: 'fadeIn',

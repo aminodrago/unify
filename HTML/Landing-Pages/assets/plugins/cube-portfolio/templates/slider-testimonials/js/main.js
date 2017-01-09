@@ -14,8 +14,8 @@
         scrollByPage: false,
         gridAdjustment: 'responsive',
         mediaQueries: [{
-            width: 1,
-            cols: 1
+            width: 0,
+            cols: 1,
         }],
         gapHorizontal: 0,
         gapVertical: 0,

@@ -819,13 +819,14 @@ $_SESSION['captcha_id'] = $str;
 														<li><a href="One-Pages/Gym/index.html">Gym</a></li>
 														<li><a href="One-Pages/Lawyer/index.html">Lawyer</a></li>
 														<li><a href="One-Pages/App/index.html">Mobile App</a></li>
-														<li><a href="One-Pages/Music/index.html">Music <small class="color-red">New</small></a></li>
-														<li><a href="One-Pages/RealEstate/index.html">Real Estate</a></li>
+														<li><a href="One-Pages/Music/index.html">Music</a></li>
+						                <li><a href="One-Pages/Photographer/index.html">Photographer <small class="color-red">New</small></a></li>
 														<li><a href="One-Pages/Restaurant/index.html">Restaurant</a></li>
 													</ul>
 												</div>
 												<div class="col-md-3 equal-height-in">
 													<ul class="list-unstyled equal-height-list">
+														<li><a href="One-Pages/RealEstate/index.html">Real Estate</a></li>
 														<li><a href="One-Pages/Shipping/index.html">Shipping</a></li>
 														<li><a href="One-Pages/Spa/index.html">Spa</a></li>
 														<li><a href="One-Pages/Travel/index.html">Travel</a></li>
@@ -1109,40 +1110,42 @@ $_SESSION['captcha_id'] = $str;
 	</div><!--/wrapepr-->
 
 	<!-- JS Global Compulsory -->
-	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/jquery/jquery.min.js"></script>
+	<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<!-- JS Implementing Plugins -->
-	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-	<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script type="text/javascript" src="assets/plugins/gmap/gmap.js"></script>
-	<script type="text/javascript" src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+	<script src="assets/plugins/back-to-top.js"></script>
+	<script src="assets/plugins/smoothScroll.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 	<!-- JS Customization -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script src="assets/js/custom.js"></script>
 	<!-- JS Page Level -->
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/pages/page_contacts.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
-	<script type="text/javascript" src="assets/js/pages/page_contact_advanced.js"></script>
-	<script type="text/javascript">
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/plugins/google-map.js"></script>
+	<script src="assets/js/plugins/style-switcher.js"></script>
+	<script src="assets/js/pages/page_contact_advanced.js"></script>
+	<script>
 		jQuery(document).ready(function() {
 			App.init();
-			ContactPage.initMap();
 			StyleSwitcher.initStyleSwitcher();
 			PageContactForm.initPageContactForm();
 		});
-	</script>
-<!--[if lt IE 9]>
-	<script src="assets/plugins/respond.js"></script>
-	<script src="assets/plugins/html5shiv.js"></script>
-	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
-	<script src="assets/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
-	<![endif]-->
-<!--[if lt IE 10]>
-	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
-	<![endif]-->
 
+		// Google Map
+		function initMap() {
+			GoogleMap.initGoogleMap();
+		}
+	</script>
+	<!--[if lt IE 9]>
+		<script src="assets/plugins/respond.js"></script>
+		<script src="assets/plugins/html5shiv.js"></script>
+		<script src="assets/plugins/placeholder-IE-fixes.js"></script>
+		<script src="assets/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
+		<![endif]-->
+		<!--[if lt IE 10]>
+		<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+	<![endif]-->
 </body>
 </html>

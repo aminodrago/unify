@@ -10,6 +10,6 @@
         displayType: 'default',
         caption: 'expand',
         gapHorizontal: 0,
-        gapVertical: 0
+        gapVertical: 0,
     });
 })(jQuery, window, document);

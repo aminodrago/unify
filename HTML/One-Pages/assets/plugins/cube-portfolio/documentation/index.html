@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cube Portfolio Documentation v3.7.1 | 28 June, 2016</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cube Portfolio Documentation v3.9.0 | 9 December, 2016</title>
     <meta name="description" content="Cube Portfolio Documentation">
     <meta name="keywords" content="Cube Portfolio Documentation">
 
@@ -1062,6 +1062,7 @@ jQuery("#grid-container").off('updateSinglePageComplete.cbp');
                     <li><span class="tinycode">initComplete.cbp</span> (the plugin is initialized)</li>
                     <li><span class="tinycode">pluginResize.cbp</span> (the plugin height change)</li>
                     <li><span class="tinycode">filterComplete.cbp</span> (a filter trigger is finished)</li>
+                    <li><span class="tinycode">onAfterLoadMore.cbp</span> (fired after the loadMore functionality is executed)</li>
                 </ul>
             </p>
 
@@ -1084,6 +1085,29 @@ jQuery("#grid-container").cubeportfolio('append', '&lt;div class=&quot;logo cbp-
                 </p>
 
             <h1><a name="change-log">Change Log</a></h1>
+                <h4>v3.9.0 - 9 December, 2016</h4>
+                <ul class="lists">
+                    <li>[FEATURE] - gapHorizontal & gapVertical support for mediaQueries</li>
+                    <li>[FEATURE] - improved the animation performance for caption and filters</li>
+                    <li>[BUG FIXED] - fix layout for mobile devices</li>
+                </ul>
+
+                <h4>v3.8.1 - 25 November, 2016</h4>
+                <ul class="lists">
+                    <li>[BUG FIXED] - slider error in singlePage after resize</li>
+                    <li>[BUG FIXED] - lazyLoad on initial loading</li>
+                    <li>[BUG FIXED] - gallery position for ie11</li>
+                    <li>[BUG FIXED] - support for youtu.be shorturl</li>
+                    <li>[BUG FIXED] - small css issues</li>
+                </ul>
+
+                <h4>v3.8.0 - 19 September, 2016</h4>
+                <ul class="lists">
+                    <li>[FEATURE] - support to hide the caption on certain widths</li>
+                    <li>[FEATURE] - added onAfterLoadMore.cbp public event</li>
+                    <li>[BUG FIXED] - singlePageInline position fix for masonry layout</li>
+                </ul>
+
                 <h4>v3.7.1 - 28 June, 2016</h4>
                 <ul class="lists">
                     <li>[BUG FIXED] - prevent page jumping after closing singlePageInline</li>

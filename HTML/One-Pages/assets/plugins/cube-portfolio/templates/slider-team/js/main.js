@@ -15,19 +15,19 @@
         gridAdjustment: 'responsive',
         mediaQueries: [{
             width: 1680,
-            cols: 5
+            cols: 5,
         }, {
             width: 1350,
-            cols: 4
+            cols: 4,
         }, {
             width: 800,
-            cols: 3
+            cols: 3,
         }, {
             width: 480,
-            cols: 2
-        }, {
-            width: 320,
-            cols: 1
+            cols: 2,
+            options: {
+                gapVertical: 20,
+            }
         }],
         gapHorizontal: 0,
         gapVertical: 45,
@@ -36,5 +36,3 @@
         displayTypeSpeed: 400,
     });
 })(jQuery, window, document);
-
-

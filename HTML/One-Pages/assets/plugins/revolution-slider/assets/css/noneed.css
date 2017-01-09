@@ -141,7 +141,7 @@ body {
 
 p { 
     color: #6f7c82;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -220,6 +220,8 @@ a.button i {
      -webkit-transition: color 0.2s;
 }
 
+
+
 .button:hover {
 	background: #000;
 	color:#fff600;
@@ -229,6 +231,9 @@ a.button:hover i {
 	color:#fff600;
 }
 
+.header .button       { background: none; color: #000; font-weight: 300 !important }
+.header .button:hover { background: #fff600; color: #000; }
+.header .button:hover i {  color: #000; }
 
 .tp-infoicon i {
     color: rgba(33,42,64,0.5);
@@ -305,6 +310,10 @@ p.history_count      {   color:#fff;font-size:33px; background:#000; display:inl
 .history_title      {   font-size:33px; font-weight:500; margin:0px 0px 40px; color:#000;}
 
 .history a          {   color:#000; background: #fff600; text-decoration: none;}
+
+p a,
+p a:visited                 {   color:#d50000; font-weight: 700; text-decoration: none}
+p a:hover           { text-decoration: underline}
 
 .history a:hover     {   background:#000; color:#fff600;}
 
@@ -443,6 +452,12 @@ footer a:hover  {   color:#fff;}
 
 .sidebar_widget .social li a { background: #eee; }
 .sidebar_widget .social .s_icon { color: #555; }
+
+
+.localwarning       { visibility: hidden;position: fixed; width:100%;height:100%;background:rgba(0,0,0,0.5); z-index:100000; top:0px;left:0px; }
+.localwarningimage  { width: 800px;height: 600px; position: absolute; top: 50%;left: 50%; margin-left: -400px; margin-top: -450px; background: #fff; box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.3); background-image:url(jquery_preview_warning.jpg); background-size:contain;}
+.localwarningadvert { cursor:pointer;width: 800px;height: 200px; position: absolute; top: 50%;left: 50%; margin-left: -400px; margin-top: 150px; background: #fff; box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.3); background-image:url(jquery_visual_editor_ad.jpg); background-size:contain;}
+.localwarningclose  { position: absolute; color:#fff; font-size:25px; top:30px;right:30px; cursor: pointer}
 
 
 

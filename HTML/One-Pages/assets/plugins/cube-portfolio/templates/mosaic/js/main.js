@@ -10,19 +10,19 @@
         sortToPreventGaps: true,
         mediaQueries: [{
             width: 1500,
-            cols: 5
+            cols: 5,
         }, {
             width: 1100,
-            cols: 4
+            cols: 4,
         }, {
             width: 800,
-            cols: 3
+            cols: 3,
         }, {
             width: 480,
-            cols: 2
-        }, {
-            width: 320,
-            cols: 1
+            cols: 2,
+            options: {
+                caption: '',
+            }
         }],
         defaultFilter: '*',
         animationType: 'quicksand',
